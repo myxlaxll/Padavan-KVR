@@ -903,7 +903,8 @@ function show_menu(L1, L2, L3) {
 function show_footer() {
 	var $j = jQuery.noConflict();
 	var footer_code = '<div align="center" class="bottom-image"></div>\n';
-	footer_code += '<div align="center" class="copyright"><#footer_copyright_desc#></div>\n';
+	footer_code +='  <span>Copyright © 2014-2025 Padavan</span></br>\n';
+	footer_code +='</div>\n';
 
 	$j("#footer").html(footer_code);
 
