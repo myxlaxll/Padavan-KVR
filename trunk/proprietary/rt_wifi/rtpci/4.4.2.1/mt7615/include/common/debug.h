@@ -184,8 +184,7 @@ do{	\
 				else {	\
 					ULONG bit = GET_BIT(Category);	\
 					if ((DebugSubCategory[bit] == DBG_SUBCAT_ALL) || \
-						((SubCategory) & DebugSubCategory[bit]))	\
-						MTWF_PRINT Fmt; \
+						((SubCategory) & DebugSubCategory[bit]));	\
 				}	\
 			}	\
 		}	\
