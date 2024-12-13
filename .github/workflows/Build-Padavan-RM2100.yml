@@ -1,4 +1,4 @@
-name: Build-Padavan-RT-AC85P-无插件
+name: Build-Padavan-RM2100
 
 on: 
   workflow_dispatch:
@@ -28,7 +28,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: RT-AC85P
+        TNAME: RM2100
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
